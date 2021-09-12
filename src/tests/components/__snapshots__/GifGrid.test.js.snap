@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid component should match snapshot 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__zoomIn"
+  >
+    Goku
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    loading...
+  </p>
+</Fragment>
+`;
+
+exports[`GifGrid component should render items on data 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__zoomIn"
+  >
+    Goku
+  </h3>
+  <div
+    className="card-grid animate__fadeIn"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="test"
+      url="testUrl"
+    />
+    <GifGridItem
+      id="ABC123"
+      key="ABC123"
+      title="test"
+      url="testUrl"
+    />
+  </div>
+</Fragment>
+`;

@@ -4,7 +4,12 @@ exports[`GifGridItem Component should match snapshot 1`] = `
 <div
   className="card"
 >
-  <img />
-  <p />
+  <img
+    alt="Goku"
+    src="testUrl"
+  />
+  <p>
+    Goku
+  </p>
 </div>
 `;
